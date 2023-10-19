@@ -1,0 +1,149 @@
+section{
+    background: url(../Images/rainbow.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+
+}
+section h1{
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
+.pricing-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.pricing-card{
+background-color: #fff;
+border-radius: 10px;
+text-align: center;
+margin: 1rem ;
+margin-bottom: 2rem;
+width: 275px;
+min-height: 450px;
+padding: 1rem .75rem;
+visibility: hidden; /* Hide the cards by default */
+  opacity: 0;
+
+}
+.pricing-cards .plan{
+    font-size: 32px;
+}
+.pricing-cards .description{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.pricing-card img{
+    display: block;
+    text-align: center;
+    width:200px;
+    margin: auto;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.pricing-card:nth-child(2) img {
+    width: 120px;
+}
+.pricing-card:nth-child(3) img {
+    width: 120px;
+}
+
+.pricing-card .btn{
+    border: none;
+    background-color: royalblue;
+    width: 200px;
+    padding: 8px 35px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.pricing-card .btn a{
+    color: #fff;
+}
+.pricing-card .btn:hover{
+    transform: scale(1.1);
+}
+.pricing-card .price{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 0px;
+}
+.pricing-card .price span{
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px 0;
+    color: red;
+    display: block;
+    text-decoration: line-through;
+   
+}
+.pricing-card ul{
+    text-align: left;
+    padding: 0rem 10px;
+    padding-left: 20px;
+    line-height:1.2 ;
+}
+.pricing-card ul li{
+    list-style: disc;
+
+}
+
+.pricing-card:nth-child(1){
+    position: relative;
+    animation: drop1 2s forwards 0s 1;
+
+
+}
+.pricing-card:nth-child(2){
+    position: relative;
+    animation: drop2 2s forwards 2s 1;
+
+    
+}
+.pricing-card:nth-child(3){
+    position: relative;
+    animation: drop3 2s forwards 4s 1;
+
+}
+@keyframes drop1{
+    0%{
+        top: -700px;
+        opacity: 0;
+    }
+    100%{
+        top: 0;
+        opacity: 1;
+    visibility: visible;
+    }
+}
+@keyframes drop2{
+    0%{
+        top: -700px;
+        opacity: 0;
+    }
+    100%{
+        top: 0;
+        opacity: 1;
+    visibility: visible;
+    }
+}
+@keyframes drop3{
+    0%{
+        top: -700px;
+        opacity: 0;
+    }
+    100%{
+        top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
