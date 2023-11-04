@@ -15,4 +15,36 @@ closeBtn.onclick = () => {
     }
 };
 
+document.addEventListener('DOMContentLoaded', function () {
+    const scroll = ScrollReveal({
+        origin:'top',
+        distance:'60px',
+        duration:2500,
+        delay:400
+    })
 
+/*Index.html */
+    scroll.reveal('.main-content',{origin:'left'})
+
+
+    scroll.reveal('.sub-sub-about',{origin:'right'})
+    scroll.reveal('.about__img-1',{origin:'right'})
+    scroll.reveal('.about__img-2',{origin:'left'})
+
+    scroll.reveal('.about-companies')
+
+    scroll.reveal('.subscribe')
+
+    scroll.reveal('.copyright',{origin:'bottom'})
+
+
+    /**Contact form */
+    scroll.reveal('.contact-main-text',{origin:'left'})
+    scroll.reveal('.contact-form',{origin:'right'})
+    scroll.reveal('.contact-icons',{origin:'bottom'})
+
+    /**Login */
+    scroll.reveal('.login')
+
+
+})

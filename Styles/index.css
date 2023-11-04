@@ -96,37 +96,10 @@ width: 100%;
         width: 450px;
         height: 200px;
         position: relative;
-        animation-name: animateimage;
-        animation-duration: 1.5s;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
+       
     }
-    @keyframes animateimage{
-        0%,50%{
-            left: -1200px;
-        }
-        100%{
-            left: 0;
-        }
-
-    }
-    .sub-sub-about{
-        position: relative;
-        animation-name: text;
-        animation-duration: 1.5s;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
-
-    }
-    @keyframes text{
-        0%,50%{
-            right: -1200px;
-        }
-        100%{
-            right: 0;
-        }
-
-    }
+    
+   
     .about .about-sub .sub-sub-about p{
         font-size: 15px;
         text-align: left;
