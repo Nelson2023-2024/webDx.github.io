@@ -47,4 +47,21 @@ document.addEventListener('DOMContentLoaded', function () {
     scroll.reveal('.login')
 
 
+    //Auto type
+    const typed = new Typed('.auto-type', {
+        strings: ["easy","fun", "simple", "effortless", "smooth", "User-friendly","Manageable"],
+        typeSpeed: 200,
+        backSpeed: 150,
+        loop: true
+    });
+
+
 })
+
+
+
+
+
+
+
+
