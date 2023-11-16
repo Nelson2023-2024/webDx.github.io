@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         origin:'top',
         distance:'60px',
         duration:2500,
-        delay:400
+        delay:350
     })
 
 /*Index.html */
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
     scroll.reveal('.contact-icons',{origin:'bottom'})
 
     /**Login */
-    scroll.reveal('.login')
+    scroll.reveal('.box')
 
 
     //Auto type
