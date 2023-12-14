@@ -62,7 +62,7 @@ width: 100%;
     width: 100px;
 
     animation-name: float;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }

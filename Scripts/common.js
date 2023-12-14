@@ -19,8 +19,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const scroll = ScrollReveal({
         origin:'top',
         distance:'60px',
-        duration:2500,
-        delay:350
+        duration:2000,
+        delay:250,
+        reset:true
     })
 
 /*Index.html */

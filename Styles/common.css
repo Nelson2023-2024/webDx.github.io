@@ -7,8 +7,21 @@
     list-style: none;
     scroll-behavior: smooth;
 }
+
 body{
     min-height: 100vh;
+}
+::-webkit-scrollbar{
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8c92a4;
+    border-radius: 20px;
+    
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #423d3d;   
 }
 
 .copyright{
