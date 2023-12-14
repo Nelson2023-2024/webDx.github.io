@@ -21,7 +21,8 @@ document.addEventListener('DOMContentLoaded', function () {
         distance:'60px',
         duration:2000,
         delay:250,
-        reset:true
+        reset:true,
+
     })
 
 /*Index.html */
