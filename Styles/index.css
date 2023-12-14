@@ -162,6 +162,12 @@ width: 100%;
      }
 
     @media screen and  (max-width:769px){
+
+    .home-main{
+        text-align: center;
+    }
+
+
     .main-content{
             flex-direction: column;
             margin: auto;
@@ -184,6 +190,9 @@ width: 100%;
 }
 
 @media screen and (max-width:769px) {
+    .about{
+        text-align: center;
+    }
     .about-sub{
         flex-direction: column;
         align-items: center;
